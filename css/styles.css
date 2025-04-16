@@ -1,0 +1,31 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#cartItems .d-flex {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+#statusMessage .alert {
+    margin-top: 15px;
+}
+
+.btn-outline-danger {
+    padding: 3px 8px;
+    font-size: 0.9rem;
+}
